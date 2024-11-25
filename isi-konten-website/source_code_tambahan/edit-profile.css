@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    background-image: url('../gambar/Keperluan-projek/bg-batik-2-black.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.container {
+    width: 40%;
+    margin: 10vh auto;
+    padding: 10vh 2vw 10vh 2vw;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: -0.5vh;
+    margin-top: -2vh;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    width: 35vw;
+    padding: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+    background-color: background-color: rgba(255, 255, 255, 0.9) ;
+
+    border-radius: 5px;
+    box-sizing: border-box;
+
+    font-size: 15px;
+    font-family: "Open Sans";
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0);
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 2vh 1vw;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.kembali {
+        padding: 2vh 1vw;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        margin-left: 1vw;
+
+
+}
+
+.kembali:hover {
+    background-color: #45a049;
+}
+
+.kembali a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+

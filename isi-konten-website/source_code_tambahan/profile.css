@@ -1,0 +1,189 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 145vh;
+            background-image: url('../gambar/Keperluan-projek/bg-batik-2-black.png');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            background-color: rgba(255,255,255,0.9);
+            padding: 2vw;
+            max-width: 60vw;
+            margin: 20vh auto;
+            border-radius: 30px;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: "Poppins";
+            font-weight: 600;
+            margin-bottom: 5vh;
+        }
+
+        .container img {
+            display: block;
+            margin: 3vh auto -5vh auto;
+            box-shadow: 3px 5px 10px rgba(0,0,0,0.5);
+            border: 1px solid rgba(0,0,0,0.5);
+        }
+
+
+        .profile-info {
+            margin: 0vh auto 1vh auto;
+            width: 80%;
+        }
+
+        .profile-info p {
+            font-family: "Poppins";
+            font-size: 17px;
+            margin-bottom: 0.5vh;
+            margin-left: 0.5vw;
+        }
+
+        .profile-info strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .profile-info .info-box {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: transparent;
+
+            font-family: "Open Sans";
+            font-size: 16px;
+
+            box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+        }
+
+        .welcome-line {
+            width: 80%; 
+            height: 0.5vh; 
+            background-color: #333; 
+            margin: 0vh auto 8vh auto; 
+            border-radius: 50px;
+        }
+
+
+
+.button-container {
+    display: flex;
+    flex-direction: row; 
+    gap: 3vh; 
+    align-items: center; 
+
+
+    width:80%;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+
+.button-1 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 8vw;
+    padding: 1vh 1vw; 
+    background-color: rgb(87, 96, 185); 
+    color: white; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button-2 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 8vw;
+    padding: 1vh 1vw; 
+    background-color: #bb3131; 
+    color: white; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button-3 {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 10vw;
+    padding: 1vh 1vw; 
+    background-color: #bb3131; 
+    color: white; 
+    font-family: "Poppins", sans-serif; 
+    font-size: 16px; 
+    text-decoration: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+.button-1 i, .button-2 i, .button-3 i {
+    margin-right: 0.5vw; /* Jarak antara ikon dan teks */
+}
+
+
+.button-1:hover {
+    background-color:rgb(68, 76, 143); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.button-2:hover {
+    background-color: #962a2a; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.button-3:hover {
+    background-color: #962a2a; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.profile-frame {
+    width: 15vw;
+    height: 32vh;
+    border-radius: 50%;
+
+    background-color: transparent; 
+    margin: 0vh auto 8vh auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    color: #999; 
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.default-profile {
+    width: 100%; /* Gambar memenuhi lebar bingkai */
+    height: 100%; /* Gambar juga memenuhi tinggi bingkai */
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+
+
+
+
+
+
+
+/* KEBUTUHANA NAVBAR */
